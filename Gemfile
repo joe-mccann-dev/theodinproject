@@ -2,9 +2,9 @@ ruby File.read('.ruby-version').strip
 
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.4.6'
+gem 'rails', '7.0.2.3'
 
-gem 'activeadmin', '~> 2.10'
+gem 'activeadmin', '~> 2.11'
 gem 'activeadmin_addons', '~> 1.9'
 gem 'active_material', '~> 1.5'
 gem 'acts_as_votable', '~> 0.13'
@@ -41,16 +41,16 @@ gem 'sentry-rails', '~> 5.2'
 gem 'sentry-ruby', '~> 5.2'
 gem 'sentry-sidekiq', '~> 5.2'
 gem 'sidekiq', '~> 6.4'
-gem 'view_component', '~> 2.51'
+gem 'view_component', '~> 2.52'
 gem 'webpacker', '~> 5.4'
 
 group :development do
-  gem 'letter_opener', '~> 1.7'
+  gem 'letter_opener', '~> 1.8'
   gem 'listen', '~> 3.7'
   gem 'rack-mini-profiler'
   gem 'rubocop', '~> 1.26', require: false
   gem 'rubocop-performance', '~> 1.13', require: false
-  gem 'rubocop-rails', '~> 2.13', require: false
+  gem 'rubocop-rails', '~> 2.14', require: false
   gem 'web-console', '~> 4.2'
 end
 
